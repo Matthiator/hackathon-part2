@@ -8,7 +8,7 @@ metadata:
 parameters:
   csi.storage.k8s.io/csi-driver-name: disk.csi.everest.io
   csi.storage.k8s.io/fstype: ext4
-  everest.io/disk-volume-type: SATA
+  everest.io/disk-volume-type: SAS
   everest.io/passthrough: "true"
 provisioner: everest-csi-provisioner
 reclaimPolicy: Delete
