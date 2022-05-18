@@ -3,7 +3,7 @@ global:
     - name: stage
       value: $STAGE
     - name: dns.host
-      value: "hackathon.tw20.de"
+      value: "admin.hackathon.tw20.de"
 argocd-config:
   namespace: argocd
 cert-manager:
